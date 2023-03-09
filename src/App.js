@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import NabBar from './Componen/Header/NabBar';
 const productsArr = [
 
 {
@@ -49,7 +50,6 @@ function App() {
   return (
     <div >
     <header>
-    
     </header>
     {productsArr.map(items=><div>
       <span>{items.title}</span>
